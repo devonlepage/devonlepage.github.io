@@ -3,14 +3,14 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Posts tagged 'posts'</title>
-    <meta name="description" content="Posts tagged 'posts'">
+    <title>Second post</title>
+    <meta name="description" content="Adding a post....">
     <meta name="author"      content="The Unknown Author">
-    <meta name="keywords"    content="posts">
+    <meta name="keywords"    content="second post">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="http://www.example.com/tags/posts.html">
-
+    <link rel="canonical" href="http://www.example.com/2017/05/second-post.html">
+    <link rel="next" href="/2017/05/test.html">
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
@@ -19,9 +19,9 @@
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
     <!-- Feeds -->
     <link rel="alternate" type="application/atom+xml"
-          href="/feeds/posts.atom.xml" title="Atom Feed">
+          href="/feeds/all.atom.xml" title="Atom Feed">
     <link rel="alternate" type="application/rss+xml"
-          href="/feeds/posts.rss.xml" title="RSS Feed">
+          href="/feeds/all.rss.xml" title="RSS Feed">
     <!-- JS -->
     <script type="text/javascript">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -69,8 +69,8 @@
             <li>
               <a href="/About.html">About</a>
             </li> 
-            <li><a href="/feeds/posts.atom.xml">Atom</a></li>
-            <li><a href="/feeds/posts.rss.xml">RSS</a></li>
+            <li><a href="/feeds/all.atom.xml">Atom</a></li>
+            <li><a href="/feeds/all.rss.xml">RSS</a></li>
           </ul>
         </div>
       </div>
@@ -83,19 +83,54 @@
 
 
 
-          <h1>Posts tagged <em>posts</em></h1>
+
 
           <article>
   <header>
-    <h2><a href='/2017/05/test.html'>Test</a></h2>
+    <h1>Second post</h1>
     <p class='date-and-tags'>
-<time datetime="2017-05-25" pubdate="true">2017-05-25</time> :: <span class="tags"><a href="/tags/posts.html">posts</a>, <a href="/tags/first-post.html">first post</a></span></p>
+<time datetime="2017-05-25" pubdate="true">2017-05-25</time> :: <span class="tags"><a href="/tags/second-post.html">second post</a></span></p>
     <p class='authors'>By: <span class="authors">The Unknown Author</span></p>
   </header>
 
-<p>Hello world!</p>
+<p>Adding a post.</p>
+<!-- more-->
   <footer>
-    <a href='/2017/05/test.html'>&hellip; more &hellip;</a>
+    <script type="text/javascript">
+      !function(d,s,id){
+          var js,fjs=d.getElementsByTagName(s)[0];
+          if(!d.getElementById(id)){
+              js=d.createElement(s);
+              js.id=id;
+              js.src="//platform.twitter.com/widgets.js";
+              fjs.parentNode.insertBefore(js,fjs);
+          }
+      }(document,"script","twitter-wjs");
+    </script>
+    <a href="https://twitter.com/share"
+       class="twitter-share-button"
+       data-url="http://www.example.com/2017/05/second-post.html"
+       data-dnt="true">
+      "Tweet"</a>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <g:plusone size="medium" href="http://www.example.com/2017/05/second-post.html"></g:plusone>
+    <script type="text/javascript">
+      var disqus_shortname = 'shortname';
+      (function() {
+          var dsq = document.createElement('script');
+          dsq.type = 'text/javascript';
+          dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <div id="disqus_thread"></div>
+    <ul class="pager">
+
+    <li class="next">
+      <a href="/2017/05/test.html"><em>Test</em> &rarr;</a>
+    </li>
+    </ul>
   </footer>
 </article>
         </div>

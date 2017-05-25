@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+ <title type="text">My Blog: Posts tagged 'second post'</title>
+ <link rel="self" href="http://www.example.com/feeds/second-post.atom.xml" />
+ <link href="http://www.example.com/tags/second-post.html" />
+ <id>urn:http-www-example-com:-tags-second-post-html</id>
+ <updated>2017-05-25T08:04:20Z</updated>
+ <entry>
+  <title type="text">Second post</title>
+  <link rel="alternate" href="http://www.example.com/2017/05/second-post.html?utm_source=second-post&amp;utm_medium=Atom" />
+  <id>urn:http-www-example-com:-2017-05-second-post-html</id>
+  <published>2017-05-25T08:04:20Z</published>
+  <updated>2017-05-25T08:04:20Z</updated>
+  <author>
+   <name>The Unknown Author</name></author>
+  <content type="html">
+&lt;p&gt;Adding a post.&lt;/p&gt;&lt;a href="http://www.example.com/2017/05/second-post.html?utm_source=second-post&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>

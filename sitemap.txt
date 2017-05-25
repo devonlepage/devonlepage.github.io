@@ -1,2 +1,3 @@
 http://www.example.com/2017/05/test.html
+http://www.example.com/2017/05/second-post.html
 http://www.example.com/About.html
