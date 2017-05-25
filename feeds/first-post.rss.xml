@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>My Blog: Posts tagged 'first post'</title>
+  <description>My Blog: Posts tagged 'first post'</description>
+  <link>http://www.example.com/tags/first-post.html</link>
+  <lastBuildDate>Thu, 25 May 2017 07:38:45 UT</lastBuildDate>
+  <pubDate>Thu, 25 May 2017 07:38:45 UT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>Test</title>
+   <link>http://www.example.com/2017/05/test.html?utm_source=first-post&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-www-example-com:-2017-05-test-html</guid>
+   <pubDate>Thu, 25 May 2017 07:38:45 UT</pubDate>
+   <author>The Unknown Author</author>
+   <description>
+&lt;p&gt;Hello world!&lt;/p&gt;&lt;a href="http://www.example.com/2017/05/test.html?utm_source=first-post&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>
